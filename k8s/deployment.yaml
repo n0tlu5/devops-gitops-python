@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: python-hello
-        image: python-hello:latest
-        imagePullPolicy: Never
+        image: n0tlu5/python-hello:latest
+        imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 80
 
